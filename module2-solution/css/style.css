@@ -1,0 +1,61 @@
+.div1, .div2, .div3{
+			margin-right: 10px;
+			margin-left: 10px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+			border : 1px black solid;
+			position: relative;
+			float: left;
+			background-color: gray;
+			font-family: Calibri;
+			font-weight: bold;	
+			/*width: 30%;*/
+			box-sizing: all;
+			padding: 10px;
+		}
+		h1{
+			color: black;
+			text-align: center;
+			font-size: 1.75em;
+			
+		}
+		.biryani, .pavbhaaji, .misal{
+			padding: 1px 10px 1px 10px;
+			border: 1px black solid;
+			position: absolute;
+			float: left;
+			clear: left;
+			top: 0;
+			right: 0;
+			font-size: 1.25em;
+		}
+		p{
+			font-size: 1em;
+		}
+		.biryani{
+			background-color: red;
+		}
+		.pavbhaaji{
+			background-color: yellow;
+		}
+		.misal{
+			background-color: orange;
+		}
+		@media (min-width: 992px) {
+		  .div1, .div2, .div3 {
+		    width: 31%;
+		  }
+		}
+		@media (max-width: 991px) {
+		  .div1, .div2 {
+		    width: 47%;
+		  }
+		  .div3{
+		  	width: 96.5%;	
+		  }
+		}
+		@media (max-width: 767px) {
+		  .div1, .div2, .div3 {
+		    width: 96%;
+		  }
+		}
