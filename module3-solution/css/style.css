@@ -1,0 +1,107 @@
+body{
+	font-size: 16px;
+	font-family: Calibri;
+}
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	color: black;
+}
+#menu-button{
+	float: right;
+	clear: both;
+	margin-top: 10px;
+	color: black;
+}
+.navbar-brand h1 {
+	color: black;
+	width: 100%;
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	margin: 10px;
+	line-height: 0;
+	vertical-align: middle;
+}
+
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+#main-content h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-bottom: 10px;
+}
+
+#main-content div {
+	background-color: gray;
+}
+
+#main-content div div {
+	padding-top: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#main-content hr {
+	height: 10px;
+	color: white;
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav, #nav-list {
+		color: black;
+		background-color: white;
+	}
+
+	#menu-button{
+		clear: none;
+    }
+}
+
+@media (max-width: 479px) {
+	#collapsable-nav, #nav-list {
+		color: black;
+		background-color: white;
+	}
+	
+	#menu-button{
+		clear: none;
+		color: black;
+    }
+}
+
+.divider {
+	height:1px;
+	margin:9px 0;
+	overflow:hidden;
+	background-color:#e5e5e5;
+}
