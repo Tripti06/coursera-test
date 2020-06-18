@@ -3,8 +3,6 @@
 (function(window){
 	var helloSpeaker = {};
 	var speakWord = "Hello";
-	console.log(name);
-	// helloSpeaker.name = window.name;
 	helloSpeaker.speak = function () {
 	  console.log(speakWord + " " + name);
 	}
